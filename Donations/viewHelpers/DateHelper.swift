@@ -29,8 +29,10 @@ class DateHelper {
 //        let dateFormatter = DateFormatter()
 //        dateFormatter.doesRelativeDateFormatting = true
 //        dateFormatter.dateStyle = .medium
-        
+    
         let timeFormatter = DateFormatter()
+        let loc = Locale(identifier: "ru")
+        timeFormatter.locale = loc
         timeFormatter.dateFormat = "dd MMMM"
         
         let time = "\(timeFormatter.string(from: now))"

@@ -39,6 +39,8 @@ class OptionsController: BaseViewController {
         datePicker.text.textColor = ColorHelper().hexStringToUIColor(hex: "#818C99")
         myDatePicker = UIDatePicker()
         myDatePicker.timeZone = NSTimeZone.local
+        let loc = Locale(identifier: "ru")
+        self.myDatePicker.locale = loc
         selectedDate = Date().timeIntervalSince1970
         datePicker.onPick(onPick : {
             self.createDatePickerAlert()
