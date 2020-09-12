@@ -7,3 +7,6 @@
 //
 
 import Foundation
+class NewsHeap {
+    public static var news = Array<PostModel>()
+}

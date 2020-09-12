@@ -7,3 +7,18 @@
 //
 
 import Foundation
+class CreateDonationController: BaseViewController {
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        actionBar.title.text = "Пожертвования"
+       
+    }
+  
+    @IBAction func createDonation(_ sender: Any) {
+        let donationTypeController = self.storyboard!.instantiateViewController(withIdentifier: "DonationTypeController") as! DonationTypeController
+        donationTypeController.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(donationTypeController, animated: true)
+    }
+    
+}

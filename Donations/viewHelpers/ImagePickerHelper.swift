@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+class ImagePickerHelper {
+    static func getImagePicker() -> UIImagePickerController{
+            let imagePicker = UIImagePickerController()
+            imagePicker.allowsEditing = true
+            imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
+            return imagePicker
+    }
+}

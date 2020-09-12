@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+class HeaderHelper {
+    static func getStandartHeader(title : String) -> UIView{
+        let header = UIView()
+       
+        return header
+    }
+}

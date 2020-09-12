@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+class QuestionTextField: UITextView {
+  
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+        
+    }
+    
+    
+}
+

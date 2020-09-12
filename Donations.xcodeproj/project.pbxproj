@@ -3,27 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		629F454DDC38CBA0A51BB695 /* Pods_Donations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044996C68A25B41BC553CCE /* Pods_Donations.framework */; };
 		A0DA0CB2250B8A5A005D87E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CB1250B8A5A005D87E6 /* AppDelegate.swift */; };
-		A0DA0CB4250B8A5A005D87E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CB3250B8A5A005D87E6 /* SceneDelegate.swift */; };
 		A0DA0CB6250B8A5A005D87E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CB5250B8A5A005D87E6 /* ViewController.swift */; };
 		A0DA0CB9250B8A5A005D87E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA0CB7250B8A5A005D87E6 /* Main.storyboard */; };
 		A0DA0CBB250B8A5D005D87E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DA0CBA250B8A5D005D87E6 /* Assets.xcassets */; };
 		A0DA0CBE250B8A5D005D87E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA0CBC250B8A5D005D87E6 /* LaunchScreen.storyboard */; };
+		A0DA0CC7250B8CF8005D87E6 /* HeaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CC6250B8CF8005D87E6 /* HeaderHelper.swift */; };
+		A0DA0CCA250B8D36005D87E6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CC9250B8D35005D87E6 /* CustomButton.swift */; };
+		A0DA0CCD250B8D62005D87E6 /* ColortHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CCC250B8D62005D87E6 /* ColortHelper.swift */; };
+		A0DA0CCF250B8D80005D87E6 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CCE250B8D80005D87E6 /* Extentions.swift */; };
+		A0DA0CD1250B8EDA005D87E6 /* StandartActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CD0250B8EDA005D87E6 /* StandartActionBar.swift */; };
+		A0DA0CD4250B92A4005D87E6 /* CreateDonationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CD3250B92A4005D87E6 /* CreateDonationController.swift */; };
+		A0DA0CD6250B92DC005D87E6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CD5250B92DC005D87E6 /* BaseViewController.swift */; };
+		A0DA0CD8250B9870005D87E6 /* DonationTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CD7250B9870005D87E6 /* DonationTypeController.swift */; };
+		A0DA0CDA250BAEE3005D87E6 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CD9250BAEE3005D87E6 /* RoundedView.swift */; };
+		A0DA0CDC250BB686005D87E6 /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CDB250BB686005D87E6 /* QuestionsController.swift */; };
+		A0DA0CDE250BB8CC005D87E6 /* DashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CDD250BB8CC005D87E6 /* DashedView.swift */; };
+		A0DA0CE0250BBB3B005D87E6 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CDF250BBB3B005D87E6 /* ImagePickerView.swift */; };
+		A0DA0CE2250BC43C005D87E6 /* ImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CE1250BC43C005D87E6 /* ImagePickerHelper.swift */; };
+		A0DA0CE4250BC752005D87E6 /* QuestionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CE3250BC752005D87E6 /* QuestionInput.swift */; };
+		A0DA0CE6250BCD1E005D87E6 /* QuestionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CE5250BCD1E005D87E6 /* QuestionTextField.swift */; };
+		A0DA0CE8250BDFC9005D87E6 /* QuestionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CE7250BDFC9005D87E6 /* QuestionPicker.swift */; };
+		A0DA0CEA250BEEEB005D87E6 /* OptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CE9250BEEEB005D87E6 /* OptionsController.swift */; };
+		A0DA0CEC250BF188005D87E6 /* OptionsRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CEB250BF188005D87E6 /* OptionsRadio.swift */; };
+		A0DA0CEE250BF6BE005D87E6 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CED250BF6BE005D87E6 /* DateHelper.swift */; };
+		A0DA0CF0250C0082005D87E6 /* PostEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CEF250C0082005D87E6 /* PostEditController.swift */; };
+		A0DA0CF2250C077B005D87E6 /* HelpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CF1250C077B005D87E6 /* HelpButton.swift */; };
+		A0DA0CF4250C0841005D87E6 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CF3250C0841005D87E6 /* PostCard.swift */; };
+		A0DA0CF6250C0C43005D87E6 /* TagsBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CF5250C0C43005D87E6 /* TagsBtn.swift */; };
+		A0DA0CF9250C0FF3005D87E6 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CF8250C0FF3005D87E6 /* PostModel.swift */; };
+		A0DA0CFB250C1FCB005D87E6 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CFA250C1FCB005D87E6 /* NewsController.swift */; };
+		A0DA0CFD250C2529005D87E6 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CFC250C2529005D87E6 /* NewsCell.swift */; };
+		A0DA0CFF250C27F4005D87E6 /* NewsHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0CFE250C27F4005D87E6 /* NewsHeap.swift */; };
+		A0DA0D01250C39A5005D87E6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0D00250C39A5005D87E6 /* Toast.swift */; };
+		A0DA0D03250C3BC3005D87E6 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0D02250C3BC3005D87E6 /* InfoController.swift */; };
+		A0DA0D05250C43B3005D87E6 /* HelpGreenBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA0D04250C43B3005D87E6 /* HelpGreenBtn.swift */; };
+		A0E12104250C465E00AA8975 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E12103250C465E00AA8975 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0044996C68A25B41BC553CCE /* Pods_Donations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187C8FD3DB80A5576A12E9EB /* Pods-Donations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donations.release.xcconfig"; path = "Target Support Files/Pods-Donations/Pods-Donations.release.xcconfig"; sourceTree = "<group>"; };
+		6CB4C393B5B87D1A67F6A873 /* Pods-Donations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donations.debug.xcconfig"; path = "Target Support Files/Pods-Donations/Pods-Donations.debug.xcconfig"; sourceTree = "<group>"; };
 		A0DA0CAE250B8A5A005D87E6 /* Donations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DA0CB1250B8A5A005D87E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0DA0CB3250B8A5A005D87E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0DA0CB5250B8A5A005D87E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0DA0CB8250B8A5A005D87E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0DA0CBA250B8A5D005D87E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0DA0CBD250B8A5D005D87E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0DA0CBF250B8A5D005D87E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DA0CC6250B8CF8005D87E6 /* HeaderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHelper.swift; sourceTree = "<group>"; };
+		A0DA0CC9250B8D35005D87E6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A0DA0CCC250B8D62005D87E6 /* ColortHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColortHelper.swift; sourceTree = "<group>"; };
+		A0DA0CCE250B8D80005D87E6 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		A0DA0CD0250B8EDA005D87E6 /* StandartActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartActionBar.swift; sourceTree = "<group>"; };
+		A0DA0CD3250B92A4005D87E6 /* CreateDonationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDonationController.swift; sourceTree = "<group>"; };
+		A0DA0CD5250B92DC005D87E6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A0DA0CD7250B9870005D87E6 /* DonationTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypeController.swift; sourceTree = "<group>"; };
+		A0DA0CD9250BAEE3005D87E6 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		A0DA0CDB250BB686005D87E6 /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
+		A0DA0CDD250BB8CC005D87E6 /* DashedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedView.swift; sourceTree = "<group>"; };
+		A0DA0CDF250BBB3B005D87E6 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A0DA0CE1250BC43C005D87E6 /* ImagePickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerHelper.swift; sourceTree = "<group>"; };
+		A0DA0CE3250BC752005D87E6 /* QuestionInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionInput.swift; sourceTree = "<group>"; };
+		A0DA0CE5250BCD1E005D87E6 /* QuestionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTextField.swift; sourceTree = "<group>"; };
+		A0DA0CE7250BDFC9005D87E6 /* QuestionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPicker.swift; sourceTree = "<group>"; };
+		A0DA0CE9250BEEEB005D87E6 /* OptionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsController.swift; sourceTree = "<group>"; };
+		A0DA0CEB250BF188005D87E6 /* OptionsRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsRadio.swift; sourceTree = "<group>"; };
+		A0DA0CED250BF6BE005D87E6 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		A0DA0CEF250C0082005D87E6 /* PostEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditController.swift; sourceTree = "<group>"; };
+		A0DA0CF1250C077B005D87E6 /* HelpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpButton.swift; sourceTree = "<group>"; };
+		A0DA0CF3250C0841005D87E6 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		A0DA0CF5250C0C43005D87E6 /* TagsBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsBtn.swift; sourceTree = "<group>"; };
+		A0DA0CF8250C0FF3005D87E6 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		A0DA0CFA250C1FCB005D87E6 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		A0DA0CFC250C2529005D87E6 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		A0DA0CFE250C27F4005D87E6 /* NewsHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeap.swift; sourceTree = "<group>"; };
+		A0DA0D00250C39A5005D87E6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		A0DA0D02250C3BC3005D87E6 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		A0DA0D04250C43B3005D87E6 /* HelpGreenBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpGreenBtn.swift; sourceTree = "<group>"; };
+		A0E12103250C465E00AA8975 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629F454DDC38CBA0A51BB695 /* Pods_Donations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3047EF726A371E0A5567CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0044996C68A25B41BC553CCE /* Pods_Donations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BF2618206B390B98CF3E9C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB4C393B5B87D1A67F6A873 /* Pods-Donations.debug.xcconfig */,
+				187C8FD3DB80A5576A12E9EB /* Pods-Donations.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A0DA0CA5250B8A5A005D87E6 = {
 			isa = PBXGroup;
 			children = (
 				A0DA0CB0250B8A5A005D87E6 /* Donations */,
 				A0DA0CAF250B8A5A005D87E6 /* Products */,
+				8BF2618206B390B98CF3E9C4 /* Pods */,
+				3A3047EF726A371E0A5567CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +140,85 @@
 		A0DA0CB0250B8A5A005D87E6 /* Donations */ = {
 			isa = PBXGroup;
 			children = (
+				A0DA0CF7250C0FE4005D87E6 /* models */,
+				A0DA0CD2250B9283005D87E6 /* viewControllers */,
+				A0DA0CCB250B8D54005D87E6 /* utils */,
+				A0DA0CC8250B8D22005D87E6 /* customViews */,
+				A0DA0CC5250B8CD3005D87E6 /* viewHelpers */,
 				A0DA0CB1250B8A5A005D87E6 /* AppDelegate.swift */,
-				A0DA0CB3250B8A5A005D87E6 /* SceneDelegate.swift */,
-				A0DA0CB5250B8A5A005D87E6 /* ViewController.swift */,
 				A0DA0CB7250B8A5A005D87E6 /* Main.storyboard */,
 				A0DA0CBA250B8A5D005D87E6 /* Assets.xcassets */,
 				A0DA0CBC250B8A5D005D87E6 /* LaunchScreen.storyboard */,
 				A0DA0CBF250B8A5D005D87E6 /* Info.plist */,
 			);
 			path = Donations;
+			sourceTree = "<group>";
+		};
+		A0DA0CC5250B8CD3005D87E6 /* viewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA0CC6250B8CF8005D87E6 /* HeaderHelper.swift */,
+				A0DA0CE1250BC43C005D87E6 /* ImagePickerHelper.swift */,
+				A0DA0CED250BF6BE005D87E6 /* DateHelper.swift */,
+			);
+			path = viewHelpers;
+			sourceTree = "<group>";
+		};
+		A0DA0CC8250B8D22005D87E6 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA0CC9250B8D35005D87E6 /* CustomButton.swift */,
+				A0DA0CD0250B8EDA005D87E6 /* StandartActionBar.swift */,
+				A0DA0CD9250BAEE3005D87E6 /* RoundedView.swift */,
+				A0DA0CDD250BB8CC005D87E6 /* DashedView.swift */,
+				A0DA0CDF250BBB3B005D87E6 /* ImagePickerView.swift */,
+				A0DA0CE3250BC752005D87E6 /* QuestionInput.swift */,
+				A0DA0CE5250BCD1E005D87E6 /* QuestionTextField.swift */,
+				A0DA0CE7250BDFC9005D87E6 /* QuestionPicker.swift */,
+				A0DA0CEB250BF188005D87E6 /* OptionsRadio.swift */,
+				A0DA0CF1250C077B005D87E6 /* HelpButton.swift */,
+				A0DA0CF3250C0841005D87E6 /* PostCard.swift */,
+				A0DA0CF5250C0C43005D87E6 /* TagsBtn.swift */,
+				A0DA0CFC250C2529005D87E6 /* NewsCell.swift */,
+				A0DA0D04250C43B3005D87E6 /* HelpGreenBtn.swift */,
+				A0E12103250C465E00AA8975 /* CommentView.swift */,
+			);
+			path = customViews;
+			sourceTree = "<group>";
+		};
+		A0DA0CCB250B8D54005D87E6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA0CCC250B8D62005D87E6 /* ColortHelper.swift */,
+				A0DA0CCE250B8D80005D87E6 /* Extentions.swift */,
+				A0DA0CFE250C27F4005D87E6 /* NewsHeap.swift */,
+				A0DA0D00250C39A5005D87E6 /* Toast.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		A0DA0CD2250B9283005D87E6 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA0CB5250B8A5A005D87E6 /* ViewController.swift */,
+				A0DA0CD3250B92A4005D87E6 /* CreateDonationController.swift */,
+				A0DA0CD5250B92DC005D87E6 /* BaseViewController.swift */,
+				A0DA0CD7250B9870005D87E6 /* DonationTypeController.swift */,
+				A0DA0CDB250BB686005D87E6 /* QuestionsController.swift */,
+				A0DA0CE9250BEEEB005D87E6 /* OptionsController.swift */,
+				A0DA0CEF250C0082005D87E6 /* PostEditController.swift */,
+				A0DA0CFA250C1FCB005D87E6 /* NewsController.swift */,
+				A0DA0D02250C3BC3005D87E6 /* InfoController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		A0DA0CF7250C0FE4005D87E6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA0CF8250C0FF3005D87E6 /* PostModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0DA0CC2250B8A5D005D87E6 /* Build configuration list for PBXNativeTarget "Donations" */;
 			buildPhases = (
+				11E418AFE14CDA08F25AA8BB /* [CP] Check Pods Manifest.lock */,
 				A0DA0CAA250B8A5A005D87E6 /* Sources */,
 				A0DA0CAB250B8A5A005D87E6 /* Frameworks */,
 				A0DA0CAC250B8A5A005D87E6 /* Resources */,
+				47137D8075C26A400C11AF0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +289,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11E418AFE14CDA08F25AA8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Donations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47137D8075C26A400C11AF0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Donations/Pods-Donations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Donations/Pods-Donations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Donations/Pods-Donations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0DA0CAA250B8A5A005D87E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DA0CF6250C0C43005D87E6 /* TagsBtn.swift in Sources */,
+				A0DA0CCA250B8D36005D87E6 /* CustomButton.swift in Sources */,
+				A0DA0CF4250C0841005D87E6 /* PostCard.swift in Sources */,
+				A0DA0CD8250B9870005D87E6 /* DonationTypeController.swift in Sources */,
 				A0DA0CB6250B8A5A005D87E6 /* ViewController.swift in Sources */,
+				A0DA0CF9250C0FF3005D87E6 /* PostModel.swift in Sources */,
+				A0DA0CFB250C1FCB005D87E6 /* NewsController.swift in Sources */,
+				A0DA0D01250C39A5005D87E6 /* Toast.swift in Sources */,
+				A0DA0CCF250B8D80005D87E6 /* Extentions.swift in Sources */,
+				A0E12104250C465E00AA8975 /* CommentView.swift in Sources */,
+				A0DA0CE0250BBB3B005D87E6 /* ImagePickerView.swift in Sources */,
+				A0DA0CF0250C0082005D87E6 /* PostEditController.swift in Sources */,
+				A0DA0D05250C43B3005D87E6 /* HelpGreenBtn.swift in Sources */,
+				A0DA0CFD250C2529005D87E6 /* NewsCell.swift in Sources */,
+				A0DA0CCD250B8D62005D87E6 /* ColortHelper.swift in Sources */,
+				A0DA0CE4250BC752005D87E6 /* QuestionInput.swift in Sources */,
+				A0DA0CEA250BEEEB005D87E6 /* OptionsController.swift in Sources */,
+				A0DA0CD1250B8EDA005D87E6 /* StandartActionBar.swift in Sources */,
+				A0DA0CD6250B92DC005D87E6 /* BaseViewController.swift in Sources */,
+				A0DA0CDC250BB686005D87E6 /* QuestionsController.swift in Sources */,
+				A0DA0CDE250BB8CC005D87E6 /* DashedView.swift in Sources */,
+				A0DA0CEE250BF6BE005D87E6 /* DateHelper.swift in Sources */,
+				A0DA0CEC250BF188005D87E6 /* OptionsRadio.swift in Sources */,
+				A0DA0D03250C3BC3005D87E6 /* InfoController.swift in Sources */,
+				A0DA0CD4250B92A4005D87E6 /* CreateDonationController.swift in Sources */,
 				A0DA0CB2250B8A5A005D87E6 /* AppDelegate.swift in Sources */,
-				A0DA0CB4250B8A5A005D87E6 /* SceneDelegate.swift in Sources */,
+				A0DA0CDA250BAEE3005D87E6 /* RoundedView.swift in Sources */,
+				A0DA0CE2250BC43C005D87E6 /* ImagePickerHelper.swift in Sources */,
+				A0DA0CC7250B8CF8005D87E6 /* HeaderHelper.swift in Sources */,
+				A0DA0CF2250C077B005D87E6 /* HelpButton.swift in Sources */,
+				A0DA0CE6250BCD1E005D87E6 /* QuestionTextField.swift in Sources */,
+				A0DA0CFF250C27F4005D87E6 /* NewsHeap.swift in Sources */,
+				A0DA0CE8250BDFC9005D87E6 /* QuestionPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,10 +510,12 @@
 		};
 		A0DA0CC3250B8A5D005D87E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB4C393B5B87D1A67F6A873 /* Pods-Donations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Donations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +529,12 @@
 		};
 		A0DA0CC4250B8A5D005D87E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187C8FD3DB80A5576A12E9EB /* Pods-Donations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Donations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
